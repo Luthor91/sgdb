@@ -10,7 +10,7 @@ pub struct Collection {
 }
 
 impl Collection {
-    pub fn new(name: String) -> Self {
+    pub fn new(name: String) -> Self {  
         Collection {
             name,
             documents: VecDeque::new(),
