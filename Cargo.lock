@@ -254,17 +254,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "api"
-version = "0.1.0"
-dependencies = [
- "actix-web",
- "log",
- "models",
- "serde",
- "serde_json",
-]
-
-[[package]]
 name = "autocfg"
 version = "1.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -476,10 +465,6 @@ checksum = "b45de904aa0b010bce2ab45264d0631681847fa7b6f2eaa7dab7619943bc4f59"
 dependencies = [
  "cfg-if",
 ]
-
-[[package]]
-name = "engine"
-version = "0.1.0"
 
 [[package]]
 name = "equivalent"
@@ -776,15 +761,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "models"
-version = "0.1.0"
-dependencies = [
- "chrono",
- "serde",
- "serde_json",
-]
-
-[[package]]
 name = "num-conv"
 version = "0.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1057,11 +1033,8 @@ version = "0.1.0"
 dependencies = [
  "actix-rt",
  "actix-web",
- "api",
  "chrono",
- "engine",
  "log",
- "models",
  "serde",
  "serde_json",
 ]
@@ -1261,10 +1234,6 @@ dependencies = [
  "idna",
  "percent-encoding",
 ]
-
-[[package]]
-name = "utils"
-version = "0.1.0"
 
 [[package]]
 name = "version_check"
