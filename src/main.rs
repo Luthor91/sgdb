@@ -52,4 +52,4 @@ async fn main() -> std::io::Result<()> {
     .bind(format!("{}:{}", server_ip, server_port))? // Utiliser l'adresse IP et le port de la configuration
     .run()
     .await
-}
+}   
